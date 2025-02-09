@@ -71,8 +71,8 @@ void addRecord(fstream &file) {
         }
 
         // Write record to the end of the file.
-        file.clear();                  // clear any EOF flags
-        file.seekp(0, ios::end);       // move to end for appending
+        file.clear();                  
+        file.seekp(0, ios::end);      
         file.write(reinterpret_cast<char*>(&s), sizeof(s));
         if (!file) {
             cerr << "\n   [Error] Writing record to file failed!\n";
