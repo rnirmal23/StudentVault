@@ -1,4 +1,4 @@
-# Student Database Management System
+# StudentVault
 
 This project is a simple student database management system implemented in C++ using binary file I/O. It provides functionality for adding, listing, modifying, and deleting student records stored in a binary file.
 
