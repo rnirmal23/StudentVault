@@ -15,8 +15,6 @@ This project is a simple student database management system implemented in C++ u
 - `main.cpp` — Contains the source code for the Student Database Management System.
 - `users.dat` — Binary file used to store student records (created automatically when the program is run).
 
-## Getting Started
-
 ### Prerequisites
 
 - A C++ compiler (such as `g++` or `clang++`).
